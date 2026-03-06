@@ -1,0 +1,17 @@
+# Core dependencies
+openai>=1.0.0
+PyQt5>=5.15.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+ffmpeg-python>=0.2.0
+
+# Local processing
+faster-whisper>=1.0.0
+pytesseract>=0.3.10
+torch>=2.0.0
+
+# OCR (comes with pytesseract, but good to be explicit)
+# tesseract-ocr is a system dependency, not pip
+
+# Utilities
+numpy>=1.24.0
